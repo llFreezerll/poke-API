@@ -2,7 +2,6 @@ import { LitElement, html, css } from '../node_modules/lit/index.js';
 
 class ComponentDetail extends LitElement {
   static styles = css`
-    /* Estilos para el detalle del Pokémon */
   `;
 
   static properties = {

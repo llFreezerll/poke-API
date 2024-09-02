@@ -2,7 +2,6 @@ import { LitElement, html, css } from '../node_modules/lit/index.js';
 
 class ModalDialog extends LitElement {
   static styles = css`
-    /* Estilos para el modal */
   `;
 
   static properties = {

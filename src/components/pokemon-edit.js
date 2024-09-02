@@ -2,7 +2,6 @@ import { LitElement, html, css } from '../node_modules/lit/index.js';
 
 class PokemonEdit extends LitElement {
   static styles = css`
-    /* Estilos para el formulario de edición */
   `;
 
   static properties = {
@@ -51,7 +50,11 @@ class PokemonEdit extends LitElement {
   }
 
   saveChanges() {
-    // Lógica para guardar cambios
+    const form = this.shadowRoot.querySelector('form');
+    const inputs = form.querySelectorAll('input');
+    this.pokemon.name = inputs[0].value;
+    this.pokemon.type = inputs[1].value;
+    this.pokemon.image = inputs[2].value;
   }
 
   renderEvolutions() {
