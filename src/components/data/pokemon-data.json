@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "image": "bulbasaur.png",
+    "evolutions": [
+      {
+        "name": "Ivysaur",
+        "type": "Grass/Poison",
+        "image": "ivysaur.png"
+      },
+      {
+        "name": "Venusaur",
+        "type": "Grass/Poison",
+        "image": "venusaur.png"
+      }
+    ]
+  },
+  {
+    "name": "Charmander",
+    "type": "Fire",
+    "image": "charmander.png",
+    "evolutions": [
+      {
+        "name": "Charmeleon",
+        "type": "Fire",
+        "image": "charmeleon.png"
+      },
+      {
+        "name": "Charizard",
+        "type": "Fire/Flying",
+        "image": "charizard.png"
+      }
+    ]
+  }
+]
